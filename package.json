@@ -1,0 +1,24 @@
+{
+  "name": "nft-website",
+  "version": "1.0.0",
+  "description": "Website for our NFT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "link": "next lint"
+  },
+  "keywords": [],
+  "author": "Preston Segura",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.5.3",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.135.0"
+  }
+}
