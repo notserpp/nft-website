@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import { Box, Container } from '@chakra-ui/react'
-import VoxelDogLoader from '../voxel-dog-loader'
+import KokoLoader from '../koko-loader'
 
 
-const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
+const LazyKoko = dynamic(() => import('../koko'), {
     ssr: false,
-    loading: () => <VoxelDogLoader />
+    loading: () => <KokoLoader />
   })
   
 
@@ -21,7 +21,7 @@ const Main = ({ children, router }) => {
             <Container maxW="container.md" pt={14}>
                 {children}
             </Container>
-            <LazyVoxelDog />
+            <LazyKoko />
         </Box>
 
 
