@@ -1,10 +1,11 @@
-import { Container, Heading, Box, Image, Text, useColorModeValue } from '@chakra-ui/react'
-import Link from 'next/link'
+import { Container, Box, Image } from '@chakra-ui/react'
+
 
 
 
 const Page = () => {
     const footPrintImg = `/images/koko.png`
+    
 
     return (
         <Container>

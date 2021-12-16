@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import { Box, Container } from '@chakra-ui/react'
-import NavBar from '../navbar'
 import KokoLoader from '../koko-loader'
 
 
