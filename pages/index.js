@@ -1,18 +1,15 @@
-import { Container, Heading, Box, Image } from '@chakra-ui/react'
+import { Container, Heading, Box, Image, Text, useColorModeValue } from '@chakra-ui/react'
+import Link from 'next/link'
+
+
 
 const Page = () => {
+    const footPrintImg = `/images/koko.png`
+
     return (
         <Container>
             <Box align="center">
-                <Heading as='h2' size='xl' variant="page-title">This is our NFT website!</Heading>
-                <p>Come and get it!</p>
-            </Box>
-            <Box
-                flexShrink={0}
-                mt={{ base: 4, md: 0 }}
-                ml={{ md: 6 }}
-                textAlign="center"
-            >
+                    <Image src={footPrintImg} height={60} alt="koko" />
             </Box>
         </Container>
     )
